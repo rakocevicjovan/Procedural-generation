@@ -1,0 +1,19 @@
+struct Pyxis{
+    float4 position : SV_POSITION;
+	noperspective float3 distance : DIST;
+};
+
+
+float4 WFPS(Pyxis input) : SV_TARGET{
+	
+	float minDist = min(length(input.distance[0]), min(length(input.distance[1]), length(input.distance[2])));
+
+	float alpha = 1.f - 0.2f * minDist;
+
+	if(alpha < 0.0f)
+		discard;
+
+	float4 colour = float4(minDist, 0.0f, 0.0f, alpha);
+	
+	return colour;
+}

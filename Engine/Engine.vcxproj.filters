@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Procedural">
+      <UniqueIdentifier>{da188881-b302-4db2-9786-b8e11ead4641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading">
+      <UniqueIdentifier>{cf82194b-476f-415d-aa92-751fdbb4a3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ozz interface">
+      <UniqueIdentifier>{ee4567c5-4e2b-4bb3-a465-bf49029ab316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{deaffbae-fd9b-41f2-9865-8526d175967c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Volumetric">
+      <UniqueIdentifier>{bd095788-dafa-4102-a21e-503e0d4f07d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Common">
+      <UniqueIdentifier>{dc171221-b077-4f1b-afb0-932d39c23157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Specific">
+      <UniqueIdentifier>{e1bad4ba-8d4f-45de-93e9-ad1efd03f633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\PostProcessing">
+      <UniqueIdentifier>{649394da-8b53-43e4-8484-d98ffb290ccb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDataStructs.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rekt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Celestials.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Perlin.cpp">
+      <Filter>Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Chaos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LSystem.cpp">
+      <Filter>Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Voronoi.cpp">
+      <Filter>Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCM.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderDepth.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderHUD.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderPT.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderShadow.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSkybox.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderStrife.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderWater.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderWireframe.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderBase.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLight.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="InstancedShader.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="Volumetric.cpp">
+      <Filter>Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainShader.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinShader.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderVolumetric.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Maze.cpp">
+      <Filter>Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderMaze.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="FireLevel.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterLevel.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AirLevel.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthLevel.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderClipper.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="Hexer.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Lillies.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumetricScreen.cpp">
+      <Filter>Shading</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modelclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rekt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Celestials.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Perlin.h">
+      <Filter>Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Chaos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="LSystem.h">
+      <Filter>Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Voronoi.h">
+      <Filter>Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderShadow.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderSkybox.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderPT.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderHUD.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderDepth.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCM.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderStrife.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderWater.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderWireframe.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="Biome.h">
+      <Filter>Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderBase.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLight.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="InstancedShader.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="Volumetric.h">
+      <Filter>Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShader.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinShader.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderVolumetric.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderDataStructs.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="Maze.h">
+      <Filter>Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderMaze.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BigOzz.h">
+      <Filter>Ozz interface</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="FireLevel.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterLevel.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AirLevel.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthLevel.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderClipper.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="Hexer.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Lillies.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumetricScreen.h">
+      <Filter>Shading</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="depth.vs">
+      <Filter>Shader Files\Common</Filter>
+    </None>
+    <None Include="depth.ps">
+      <Filter>Shader Files\Common</Filter>
+    </None>
+    <None Include="shadowvs.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </None>
+    <None Include="wireframe.gs">
+      <Filter>Shader Files\Common</Filter>
+    </None>
+    <None Include="wireframe.ps">
+      <Filter>Shader Files\Common</Filter>
+    </None>
+    <None Include="wireframe.vs">
+      <Filter>Shader Files\Common</Filter>
+    </None>
+    <None Include="lightvs.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </None>
+    <None Include="lightps.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </None>
+    <None Include="cubemap.ps">
+      <Filter>Shader Files\Common</Filter>
+    </None>
+    <None Include="cubemap.vs">
+      <Filter>Shader Files\Common</Filter>
+    </None>
+    <None Include="projectTex.ps">
+      <Filter>Shader Files\Specific</Filter>
+    </None>
+    <None Include="projectTex.vs">
+      <Filter>Shader Files\Specific</Filter>
+    </None>
+    <None Include="rekt.ps">
+      <Filter>Shader Files\Specific</Filter>
+    </None>
+    <None Include="rekt.vs">
+      <Filter>Shader Files\Specific</Filter>
+    </None>
+    <None Include="shadowps.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shader-error.txt">
+      <Filter>Shader Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="waterPS.hlsl">
+      <Filter>Shader Files</Filter>
+    </FxCompile>
+    <FxCompile Include="waterVS.hlsl">
+      <Filter>Shader Files</Filter>
+    </FxCompile>
+    <FxCompile Include="volumAirPS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="volumEarthPS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="volumFirePS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="VolumJuliaPS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="volumTreePS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="volumLavaPS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="volumVS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="volumWaterPS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="clipperPS.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="clipperVS.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="skyboxps.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="InstancedVS.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="InstancedPS.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="AnimaPS.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="AnimaVS.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="dragonCurvePS.hlsl">
+      <Filter>Shader Files\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="dragonCurveVS.hlsl">
+      <Filter>Shader Files\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="mazefloorVS.hlsl">
+      <Filter>Shader Files\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="mazePS.hlsl">
+      <Filter>Shader Files\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="mazeVS.hlsl">
+      <Filter>Shader Files\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="skyboxvs.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="perlin3dVS.hlsl">
+      <Filter>Shader Files\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="perlin3dPS.hlsl">
+      <Filter>Shader Files\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="strifeps.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="strifevs.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="normalsTerrainPS.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="terrainPS.hlsl">
+      <Filter>Shader Files\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="brightMaskVS.hlsl">
+      <Filter>Shader Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="brightmaskPS.hlsl">
+      <Filter>Shader Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="blurVS.hlsl">
+      <Filter>Shader Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="bloomVS.hlsl">
+      <Filter>Shader Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="bloomPS.hlsl">
+      <Filter>Shader Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="blurHorPS.hlsl">
+      <Filter>Shader Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="blurVerPS.hlsl">
+      <Filter>Shader Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="dragonPS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="windpipePS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="windpipeVS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="dragonVS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+    <FxCompile Include="volumTornadoPS.hlsl">
+      <Filter>Shader Files\Volumetric</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
