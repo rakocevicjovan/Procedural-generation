@@ -22,7 +22,7 @@ Fresnel effect, plane-clipped reflections and dynamic normals are implemented to
 Cube map reflections, for the sphere overhead, and the volumetric water sprite wrap up the list of techniques within this level. 
 
 The final level, trial of air, changes from first person to third person perspective. Players no longer control this invisible entity, 
-and instead finds themselves operating a glider. They need to catch the elusive lord of the skies thrice, while not crashing into terrain. 
+and instead find themselves operating a glider. They need to catch the elusive lord of the skies thrice, while not crashing into terrain. 
 And what is an adventure without an occasional monster? A dragon, construced of spheres (very ominous spheres mind you),
 procedurally shaded, held together by the magic of an evil wiz... by a spring mass system, actually... chases the player. 
 If the player drops too low in height, they need only enter the gust of air (volumetric effect) in the middle of the map that will 
